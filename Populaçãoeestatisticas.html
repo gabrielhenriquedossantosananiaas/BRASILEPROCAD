@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="população.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    .page1{
+        background-color: aqua;
+    }
+
+    .page2{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .page3{
+        background-color: rgb(39, 71, 161);
+    }
+
+    .page4{
+        background-color: rgb(0, 153, 46);
+    }
+
+    .page5{
+        background-color: rgb(255, 208, 0);
+    }
+
+.interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    left: 0;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#fotopopulação{
+height: 100vh;
+width: 100%;
+}
+
+
+.estatisticas{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 6%;
+    flex-direction: column;
+}
+
+
+#icones{
+    height: 27vh;
+    width:30vh;
+}
+
+.card{
+    padding-left: 18%;
+    margin-bottom: 20%;
+}
+
+#txt1{
+    padding-right: 7%;
+    font-size: 2.5vh;
+}
+
+#txt2{
+    font-size: 2.5vh;
+    margin-right: 10%;
+}
+
+#titulodasfotos{
+    position: absolute;
+    z-index: 100;
+    font-family: var(--font-family-libre-franklin);
+    font-weight: 700;
+    margin-top: 40%;
+    background-color: rgb(0, 0, 0,0.4);
+    font-size: 7.5vh;
+}
+
+.cabecalho{
+    background-color: black;
+   height: 10px;
+   width: auto;
+   color: white;
+}
+
+#cabecalho li a{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.container-fluid{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+     header{
+    
+     z-index: 1000000;
+    position: fixed;    
+    background-color: rgb(0, 0, 0,0.5);
+    }
+
+    #header{
+    opacity: 1;
+    height: auto;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+     #cabecalho{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: wrap;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+
+     #cabecalho li{
+        padding-top: 2%;
+        font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+        padding-right: 3%;
+        color: rgb(0, 0, 0);
+     }
+
+
+     header.scrolled {
+        background-color: rgb(250, 250, 250); /* Cor do cabeçalho quando rolar */
+        scale: 1.1;
+    }
+
+
+</style>
+
+
+<body>
+    
+
+    
+    <div class="container-fluid">
+        <header id="header"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            
+            <ul id="cabecalho"> 
+                <li><a href="index.html"> Inicio</a> </li>
+             <li> <a href="turismo.html">Turismo</a>  </li>
+             <li> <a href="Culinaria.html"> Culinaria</a>  </li>
+             <li> <a href="teste.html"> Danças</a>  </li>
+            </ul>
+
+
+            
+        </header>
+    </div>
+
+
+    <div class="interface">
+        <section class="page1">
+        <img src="população e estatisticas/População no campo.jpg" alt="" id="fotopopulação" class="img-fluid">
+        <p id="titulodasfotos"> Cerca de 32 Milhões da população vive no campo.  </p>
+        </section>
+        
+        <section class="page2">
+            <img src="população e estatisticas/na cidade.jpg" alt="" id="fotopopulação" class="img-fluid">
+            <p id="titulodasfotos"> Cerca de 180 Milhões da população vive nas cidades.  </p>
+            </section>
+
+
+
+
+
+
+    
+            <section class="page3">
+                
+                <center>  <div class="estatisticas">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="população e estatisticas/populaçãostatics.png" class="card-img-top" alt="..." id="icones">
+                        <div class="card-body">
+                          <p class="card-text" id="txt1"><b>População tem cerca de 203 Milhões</b></p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="população e estatisticas/pibicones.jpg" class="card-img-top" alt="..." id="icones">
+                        <div class="card-body">
+                          <p class="card-text"> <b>USD 2,08 trilhões (2023).</b></p>
+                        </div>
+                      </div>
+                </div>
+</center>
+
+              
+                <div class="estatisticas">
+
+
+                    
+                    <div class="card" style="width: 18rem;">
+                        <img src="população e estatisticas/alfabetização.png" class="card-img-top" alt="..." id="icones">
+                        <div class="card-body">
+                          <p class="card-text"><b>93,2 da População é alfabetizada</b></p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="população e estatisticas/expectativa icone.jpg" class="card-img-top" alt="..." id="icones">
+                        <div class="card-body">
+                          <p class="card-text"><b>76 anos de idade a expectativa de vida</b></p>
+                        </div>
+                      </div>
+                </div>
+
+             
+
+                <center>  <div class="estatisticas">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="população e estatisticas/IDH.png" class="card-img-top" alt="..." id="icones"> 
+                        <div class="card-body">
+                          <p class="card-text" id="txt2"><b>0,765 (2022), considerado alto.</b></p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="população e estatisticas/energia eolica.png" class="card-img-top" alt="..." id="icones"> 
+                        <div class="card-body">
+                          <p class="card-text"><b>45% da energia Matriz vem de fontes renóvaveis</b></p>
+                        </div>
+                      </div>
+                </div>
+</center>
+
+
+
+<!-- segunda fileira -->
+
+
+
+
+                </section>
+    
+    
+                <section class="page4">
+                    <img src="população e estatisticas/pobre.jpg" alt="" id="fotopopulação" class="img-fluid">
+                    <p id="titulodasfotos"> cerca de 17.9 milhões vivem em extrema pobreza.  </p>
+                    </section>
+    
+                    <section class="page5">
+                        <img src="população e estatisticas/rico.avif" alt="" id="fotopopulação" class="img-fluid">
+                        <p id="titulodasfotos">E aproximadamente 2 milhões de pessoas, são ricas. </p>
+                        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>          
+</body>
+</html>

@@ -1,0 +1,82 @@
+.noticia {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no início do container */
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 65%;
+   margin-top: 1%;
+   margin-bottom: 3%;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-left: 15%;
+}
+
+.foto-titulo-descricao {
+    margin-left: 20px; /* Espaço entre a foto e o texto */
+}
+
+
+
+#imgolimpiada{
+    height: 35vh;
+    width: 40%;
+}
+
+
+#bio{
+    height: 30vh;
+    width: 100%;
+    margin-right: 6vh;
+}
+
+.bio{
+display: flex;
+flex-direction: column;
+}
+
+#estatistica{
+    margin-left: 0.41%;
+    border: 10px solid rgb(0, 0, 0);
+}
+
+#Estatisticas{
+    height: 70vh;
+    width: 94%;
+}
+
+#voos{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.card-img-top{
+    height: 40vh;
+    width: auto;
+}
+
+.card{
+    
+padding-right: 3%;
+
+    
+}
+
+#foto1{
+    height: 90vh;
+    width: 100%;
+}
+
+#voos2{
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: wrap;
+}

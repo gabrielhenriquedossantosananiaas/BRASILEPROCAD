@@ -1,0 +1,172 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* cabecalho */
+
+.cabecalho{
+    background-color: black;
+   height: 10px;
+   width: auto;
+   color: white;
+}
+
+#cabecalho li a{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.container-fluid{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+     header{
+    
+     z-index: 1000000;
+    position: fixed;    
+    background-color: rgb(255, 255, 255);
+    }
+
+    #header{
+    opacity: 1;
+    height: auto;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+     #cabecalho{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: wrap;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+
+     #cabecalho li{
+        padding-top: 2%;
+        font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+        padding-right: 5%;
+        color: rgb(0, 0, 0);
+     }
+
+
+
+     header.scrolled {
+        background-color: rgb(250, 250, 250); /* Cor do cabeçalho quando rolar */
+        scale: 1.1;
+    }
+
+    #header.scrolled {
+        height: 10%;
+        width: 100%;    
+    }
+
+
+
+
+
+
+
+
+
+    #trilhe h1{
+        
+        margin-bottom: 3%;
+        font-family: var(--font-family-libre-franklin);
+        font-weight: 700;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #trilhe{
+        padding-top: 7%;
+        position: relative;
+        height: 100vh;
+        width: 85%;
+        text-align: center;
+        justify-content: center;
+    }    
+
+#Cristoturismo{
+
+    display: flex;
+    flex-direction: wrap;
+    margin-top: -35%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+#turismocristo{
+    font-size: 3vh;
+    margin-top: 10%;
+}
+
+#cr{
+    margin-left: 5%;
+}
+
+#pc{
+    margin-top: 4%;
+    margin-left: 10%;
+    height: 70vh;
+    width: 35%;
+}
+
+#paodeacucarturismo{
+    margin-top: -2%;
+    display: flex;
+    flex-direction: wrap;
+
+    position: absolute;
+    margin-left: 3%;
+}
+
+#turismopc{
+    margin-left: 5%;
+    font-size: 3vh;
+    margin-top: 14%;
+}
+
+#lençois{
+    margin-top: 40%;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.avenida{
+    margin-left: 30%;
+    margin-top: -20%;
+    position: absolute;
+}
+
+#avenida{
+    height: 70vh;
+    width: auto;
+}
+
+#textoavenida{
+    
+    font-size: 2.5vh;
+    margin-left: 20%;
+    margin-top: 3% ;
+    position: absolute;
+}
+
+.fotodoturismo{
+    padding-top: 5%;
+}

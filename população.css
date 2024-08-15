@@ -1,0 +1,173 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* cabecalho */
+
+.cabecalho{
+    background-color: black;
+   height: 10px;
+   width: auto;
+   color: white;
+}
+
+#cabecalho li a{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.container-fluid{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+     header{
+    
+     z-index: 1000000;
+    position: fixed;    
+    background-color: rgb(255, 255, 255);
+    }
+
+    #header{
+    opacity: 1;
+    height: auto;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+     #cabecalho{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: wrap;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+
+     #cabecalho li{
+        padding-top: 2%;
+        
+        padding-right: 3%;
+        color: rgb(0, 0, 0);
+     }
+
+
+
+     header.scrolled {
+        background-color: rgb(250, 250, 250); /* Cor do cabeçalho quando rolar */
+        
+    }
+
+    #header.scrolled {
+        height: 10%;
+        width: 100%;    
+    }
+
+
+
+
+
+
+
+
+
+    #trilhe h1{
+        
+        margin-bottom: 3%;
+        font-family: var(--font-family-libre-franklin);
+        font-weight: 700;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #trilhe{
+        padding-top: 7%;
+        position: relative;
+        height: 100vh;
+        width: 85%;
+        text-align: center;
+        justify-content: center;
+    }    
+
+
+#lençois{
+    margin-top: 47%;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+<div class="container-fluid">
+<header id="header"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    
+    <ul id="cabecalho"> 
+     <li id="veiculo"> <a href="vehicle.html"> Vehicles</a> </li>
+        <li id> <a href="" >Energy</a>  </li>
+        <li> <a href="">Charging</a>  </li>
+        <li> <a href="">Discover </a> </li>
+        <li> <a href=""> Shop </a> </li>
+    </ul>
+
+
+    
+</header>
+</div>
+
+
+
+
+
+
+
+
+    <div id="trilhe" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fluid" >
+<center>
+    <h1 class="col-lg-10 col-md-12 col-sm-12 col-xs-12"> 
+        Desfrute do Melhor: Explore os Encantos dos Pontos Turísticos Imperdíveis! </h1>   
+</center>
+     </div>
+
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lencois">
+<img src="turismo/lençois.jpg" alt="" id="lençois">
+</div>
+
+
+
+
+
+
+<script>window.addEventListener('scroll', function() {
+var header = document.getElementById('header');
+if (window.scrollY > 50) {
+    header.classList.add('scrolled');
+} else {
+    header.classList.remove('scrolled');
+}
+});</script>
+
+<script>window.addEventListener('scroll', function() {
+var header = document.getElementById('logo');
+if (window.scrollY > 50) {
+    logo.classList.add('scrolled');
+} else {
+    logo.classList.remove('scrolled');
+}
+});</script>
